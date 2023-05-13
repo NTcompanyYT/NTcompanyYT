@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @NTcompanyYT
 - 👀 I’m interested in YouTube & Games
-- 🌱 I’m currently learning some art stuff & Editing things
+- 🌱 I’m currently learning somethings & Increasing my Productiviy.
 - 📫 How to reach me : https://YouTube.com/@NT_Company
 
 <!---
