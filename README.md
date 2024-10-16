@@ -1,8 +1,8 @@
-<h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
+<h2 align="left">This is me</h2>
 
 ###
 
-<img align="right" height="150" src="https://giphy.com/embed/dLolp8dtrYCJi"  />
+<img align="right" height="150" src="https://i.imgur.com/yCcNUZW.jpeg"  />
 
 ###
 
@@ -20,8 +20,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/godot/godot-original.svg" height="30" alt="godot logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
   <img width="12" />
