@@ -1,0 +1,33 @@
+name: Generate Snake
+on:
+  schedule:
+    # every 8 hours
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v2
+
+      # Generates the snake
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: NTcompanyYT
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      # Push the changes to the output branch
+      - name: Push changes
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+
+      # Show the status of the build (useful for debugging)
+      - run: git status
